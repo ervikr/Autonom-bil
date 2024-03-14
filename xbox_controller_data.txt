@@ -1,0 +1,77 @@
+struct input_event {
+    struct timeval time;
+    __u16 type;
+    __u16 code;
+    __s32 value;
+};
+
+event code 3 = Variable input
+event code 1 = Button
+
+Button A
+InputEvent(1709741100, 946310, 4, 4, 589825)
+InputEvent(1709741100, 946310, 1, 304, 1)
+InputEvent(1709741100, 946310, 0, 0, 0)
+InputEvent(1709741101, 6314, 4, 4, 589825)
+InputEvent(1709741101, 6314, 1, 304, 0)
+InputEvent(1709741101, 6314, 0, 0, 0)
+
+Button B
+InputEvent(1709741163, 347269, 4, 4, 589826)
+InputEvent(1709741163, 347269, 1, 305, 1)
+InputEvent(1709741163, 347269, 0, 0, 0)
+InputEvent(1709741163, 437241, 4, 4, 589826)
+InputEvent(1709741163, 437241, 1, 305, 0)
+InputEvent(1709741163, 437241, 0, 0, 0)
+
+Button X
+InputEvent(1709741194, 52672, 4, 4, 589827)
+InputEvent(1709741194, 52672, 1, 306, 1)
+InputEvent(1709741194, 52672, 0, 0, 0)
+InputEvent(1709741194, 90125, 4, 4, 589827)
+InputEvent(1709741194, 90125, 1, 306, 0)
+InputEvent(1709741194, 90125, 0, 0, 0)
+
+Button Y
+InputEvent(1709741218, 495509, 4, 4, 589828)
+InputEvent(1709741218, 495509, 1, 307, 1)
+InputEvent(1709741218, 495509, 0, 0, 0)
+InputEvent(1709741218, 563027, 4, 4, 589828)
+InputEvent(1709741218, 563027, 1, 307, 0)
+InputEvent(1709741218, 563027, 0, 0, 0)
+
+Lever RT
+InputEvent(1709741252, 950997, 3, 9, 15)
+InputEvent(1709741252, 950997, 0, 0, 0)
+
+Button RB
+InputEvent(1709741280, 813797, 4, 4, 589830)
+InputEvent(1709741280, 813797, 1, 309, 1)
+InputEvent(1709741280, 813797, 0, 0, 0)
+InputEvent(1709741280, 971294, 4, 4, 589830)
+InputEvent(1709741280, 971294, 1, 309, 0)
+InputEvent(1709741280, 971294, 0, 0, 0)
+
+Dpad down
+InputEvent(1709749457, 247921, 3, 17, 1)
+InputEvent(1709749457, 247921, 0, 0, 0)
+InputEvent(1709749457, 345415, 3, 17, 0)
+InputEvent(1709749457, 345415, 0, 0, 0)
+
+Dpad up
+InputEvent(1709749511, 833397, 3, 17, -1)
+InputEvent(1709749511, 833397, 0, 0, 0)
+InputEvent(1709749511, 908399, 3, 17, 0)
+InputEvent(1709749511, 908399, 0, 0, 0)
+
+Dpad left
+InputEvent(1709749542, 951019, 3, 16, -1)
+InputEvent(1709749542, 951019, 0, 0, 0)
+InputEvent(1709749543, 71000, 3, 16, 0)
+InputEvent(1709749543, 71000, 0, 0, 0)
+
+Dpad right
+InputEvent(1709749554, 118543, 3, 16, 1)
+InputEvent(1709749554, 118543, 0, 0, 0)
+InputEvent(1709749554, 313536, 3, 16, 0)
+InputEvent(1709749554, 313536, 0, 0, 0)

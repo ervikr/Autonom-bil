@@ -1,0 +1,3 @@
+https://github.com/erviveksoni/raspberrypi-controlled-tello/blob/master/gamepad.py
+https://github.com/erviveksoni/xbox-raspberrypi-rover/blob/master/gamepad.py
+https://pypi.org/project/xbox360controller/
